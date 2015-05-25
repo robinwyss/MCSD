@@ -1,6 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace MCSD
 {
@@ -50,6 +51,20 @@ namespace MCSD
 			});
 			finalTask.Wait();
 			Console.WriteLine("Done with tasks");
+		}
+		
+		public static void WaitForAllTasks(){
+			var t1 = Task.Run(() => Thread.Sleep(100));
+			var t2 = Task.Run(() => Thread.Sleep(100));
+			var t3 = Task.Run(() => Thread.Sleep(100));
+			Task.WaitAll(new Task[]{t1,t2,t3});
+		}
+		
+		public static void WaitForAnyTasks(){
+			var t1 = Task.Run(() => Thread.Sleep(100));
+			var t2 = Task.Run(() => Thread.Sleep(100));
+			var t3 = Task.Run(() => Thread.Sleep(100));
+			Task.WaitAny(new Task[]{ t1 ,t2 ,t3 });
 		}
 	}
 }
