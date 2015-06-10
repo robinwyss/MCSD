@@ -11,6 +11,8 @@ namespace MCSD
             //ThreadPools.RunFromPool();
             Tasks.RunTask();
             Tasks.TaskWithChildren();
+            ParallelClass.For();
+            ParallelClass.ForEach();
             Console.WriteLine("Done");
         }
     }
