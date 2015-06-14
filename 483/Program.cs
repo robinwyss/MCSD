@@ -18,6 +18,8 @@ namespace MCSD
             var asyncTask = AsyncAwait.DoSomethingAsync();
             Console.WriteLine("reading text");
             Console.WriteLine(asyncTask.Result);
+            PLINQ.ParallelWhere();
+            PLINQ.ParallelOrdering();
             Console.WriteLine("Done");
         }
     }

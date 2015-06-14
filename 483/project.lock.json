@@ -7,7 +7,9 @@
     "DNXCore,Version=v5.0": [
       "System.Console >= 4.0.0-beta-*",
       "System.Threading >= 4.0.10-beta-*",
-      "System.Collections >= 4.0.10-beta-*"
+      "System.Collections >= 4.0.10-beta-*",
+      "System.Linq >= 4.0.0.0",
+      "System.Linq.Parallel >= 4.0.0.0"
     ]
   },
   "libraries": {
