@@ -13,6 +13,11 @@ namespace MCSD
             Tasks.TaskWithChildren();
             ParallelClass.For();
             ParallelClass.ForEach();
+            ParallelClass.Break();
+            ParallelClass.Stop();
+            var asyncTask = AsyncAwait.DoSomethingAsync();
+            Console.WriteLine("reading text");
+            Console.WriteLine(asyncTask.Result);
             Console.WriteLine("Done");
         }
     }
