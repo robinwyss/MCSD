@@ -54,7 +54,10 @@
     <Compile Include="1 Manage program flow\1.1\Tasks.cs" />
     <Compile Include="1 Manage program flow\1.1\ThreadPools.cs" />
     <Compile Include="1 Manage program flow\1.1\Threads.cs" />
+    <Compile Include="1 Manage program flow\1.2\CancelingTasks.cs" />
     <Compile Include="1 Manage program flow\1.2\Locking.cs" />
+    <Compile Include="1 Manage program flow\1.3\Goto.cs" />
+    <Compile Include="1 Manage program flow\1.4\Delegates.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
