@@ -58,6 +58,7 @@
     <Compile Include="1 Manage program flow\1.2\Locking.cs" />
     <Compile Include="1 Manage program flow\1.3\Goto.cs" />
     <Compile Include="1 Manage program flow\1.4\Delegates.cs" />
+    <Compile Include="1 Manage program flow\1.4\Events.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
