@@ -1,6 +1,5 @@
 using System;
 using System.Linq;
-using System.Linq.Parallel;
 
 namespace MCSD {
 	public static class PLINQ {

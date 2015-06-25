@@ -50,7 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1 Manage program flow\1.1\AsyncAwait.cs" />
+    <Compile Include="1 Manage program flow\1.1\ConcurrentCollections.cs" />
     <Compile Include="1 Manage program flow\1.1\ParallelClass.cs" />
+    <Compile Include="1 Manage program flow\1.1\PLINQ.cs" />
     <Compile Include="1 Manage program flow\1.1\Tasks.cs" />
     <Compile Include="1 Manage program flow\1.1\ThreadPools.cs" />
     <Compile Include="1 Manage program flow\1.1\Threads.cs" />
