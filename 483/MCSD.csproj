@@ -61,6 +61,8 @@
     <Compile Include="1 Manage program flow\1.3\Goto.cs" />
     <Compile Include="1 Manage program flow\1.4\Delegates.cs" />
     <Compile Include="1 Manage program flow\1.4\Events.cs" />
+    <Compile Include="2 Create and use types\2.2\ConvertingBetweenTypes.cs" />
+    <Compile Include="2 Create and use types\2.2\DynamicTypes.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +72,7 @@
     </None>
     <None Include="project.lock.json" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />
