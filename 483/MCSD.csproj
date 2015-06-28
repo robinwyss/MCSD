@@ -63,6 +63,8 @@
     <Compile Include="1 Manage program flow\1.4\Events.cs" />
     <Compile Include="2 Create and use types\2.2\ConvertingBetweenTypes.cs" />
     <Compile Include="2 Create and use types\2.2\DynamicTypes.cs" />
+    <Compile Include="2 Create and use types\2.5\MyAttribute.cs" />
+    <Compile Include="2 Create and use types\2.5\Reflection.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>

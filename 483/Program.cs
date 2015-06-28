@@ -1,10 +1,12 @@
 using System;
+using System.Threading.Tasks;
 
 using MCSD._1_Manage_program_flow._1._1;
 using MCSD._1_Manage_program_flow._1._2;
 using MCSD._1_Manage_program_flow._1._3;
 using MCSD._1_Manage_program_flow._1._4;
 using MCSD._2_Create_and_use_types._2._2;
+using MCSD._2_Create_and_use_types._2._5;
 
 namespace MCSD {
   public class Program {
@@ -14,18 +16,25 @@ namespace MCSD {
       //Run12();
       //Run13();
       //Run14();
-      Run22();
+      //Run22();
+      Run25();
       Console.WriteLine( "Done. Press any key to exit..." );
       Console.ReadLine();
     }
 
+    private static void Run25() {
+      Attributes.ReadAttribute();
+      Reflection.ReadTypesFromAssembly();
+      Reflection.UseTypesFromAssembly();
+    }
+
     private static void Run22() {
-      Console.WriteLine("Converting between types");
+      Console.WriteLine( "Converting between types" );
       ConvertingBetweenTypes.ConversionClass();
       ConvertingBetweenTypes.CustomConversion();
       ConvertingBetweenTypes.ExplicitConversion();
       ConvertingBetweenTypes.ImplicitConversion();
-      Console.WriteLine("Dynamic types");
+      Console.WriteLine( "Dynamic types" );
       DynamicTypes.DynamicObject();
       DynamicTypes.DynamicType();
       DynamicTypes.ExpandoObject();
@@ -66,7 +75,7 @@ namespace MCSD {
       PLINQ.ParallelOrdering();
       PLINQ.ParallelWhere();
       Console.WriteLine( "- AsyncAwait" );
-      var asyncTask = AsyncAwait.DoSomethingAsync();
+      Task<string> asyncTask = AsyncAwait.DoSomethingAsync();
       Console.WriteLine( "reading text" );
       Console.WriteLine( asyncTask.Result );
       Console.WriteLine( "- Concurrent Collections" );
