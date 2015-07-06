@@ -65,6 +65,8 @@
     <Compile Include="2 Create and use types\2.2\DynamicTypes.cs" />
     <Compile Include="2 Create and use types\2.5\MyAttribute.cs" />
     <Compile Include="2 Create and use types\2.5\Reflection.cs" />
+    <Compile Include="2 Create and use types\2.7\ManipulateStrings.cs" />
+    <Compile Include="3 Debug applications and implement security\3.5\EventLogExample.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,6 +7,7 @@ using MCSD._1_Manage_program_flow._1._3;
 using MCSD._1_Manage_program_flow._1._4;
 using MCSD._2_Create_and_use_types._2._2;
 using MCSD._2_Create_and_use_types._2._5;
+using MCSD._3_Debug_applications_and_implement_security._3._5;
 
 namespace MCSD {
   public class Program {
@@ -17,9 +18,14 @@ namespace MCSD {
       //Run13();
       //Run14();
       //Run22();
-      Run25();
+      //Run25();
+      Run35();
       Console.WriteLine( "Done. Press any key to exit..." );
       Console.ReadLine();
+    }
+
+    private static void Run35() {
+      EventLogExample.WriteEventLog();
     }
 
     private static void Run25() {
